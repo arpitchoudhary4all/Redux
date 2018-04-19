@@ -843,10 +843,20 @@
 			padding-top: 25px;
 		}
 		.timeline-item img{
-				height: 100%;
-				width: 100%;
-			}
-			#method p{
-				font-size: 30px;
-				font-weight: bold;
-			}
+			height: 100%;
+			width: 100%;
+		}
+		#method p{
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+		/* counter */
+		#counter{
+			height: 400px;
+			width: 100%;
+			background-image: url(../../img/2.jpg);
+			background-size: 100% 100%;	
+			background-attachment: fixed;
+		}
+		
