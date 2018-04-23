@@ -393,6 +393,21 @@
 			}
 
 		}
+		.btn {
+			text-shadow: 0;
+			  text-transform: uppercase;
+			  font-weight: 300;
+			  color: #fff;
+			  -webkit-border-radius:3px;
+			  -moz-border-radius:3px;
+			  -o-border-radius:3px;
+			  border-radius:3px;
+			  -webkit-transition: all 0.3s;
+			  -moz-transition: all 0.3s;
+			  -o-transition: all 0.3s;
+			  transition: all 0.3s;
+			  background-color: #1c2331;
+		  }
 
 /* Icon */
 
@@ -851,6 +866,52 @@
 			font-weight: bold;
 		}
 
+		/* blog */
+		
+ #blog .card{
+    margin: 0px;
+    width: -webkit-fill-available;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 6px;
+	padding: 14px;
+	max-height: 95%;
+}
+
+#blog .card-title{
+    color: #23527c;
+}
+.section-title h3{
+    color: black;
+    font-style: normal;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif, 'arial'!important;
+	text-transform: none;
+	margin-top: 20px;
+}
+.section-title p {
+    font-family: 'Poppins', sans-serif, 'arial'!important;
+    color:#3F729B;
+    font-size: 18px;
+    font-weight: 300;
+}
+.arrow{
+	width: 10%;
+}
+.read_ahead{
+    text-align: right;
+}
+.read_ahead a{
+    color: #191818;
+    font-size: 30px;
+}
+.view{
+	justify-content: center;
+	margin: 15px;
+}
+		
+
+
 		/* counter */
 		#counter{
 			height: 400px;
@@ -860,3 +921,67 @@
 			background-attachment: fixed;
 		}
 		
+		/* testimonial */
+		#section_5 .row{
+			margin-bottom: 140px;
+			margin-top: 50px;
+			color: #e5e5e5;
+			text-align: center;
+		}
+		.carousel-indicators{
+				bottom: -140px;
+				z-index: 0;
+		}
+		.carousel-indicators li {
+			width: 30px;
+			height: 30px;
+			border-radius: 0px;
+			}
+		.carousel-indicators .active{
+				width: 70px;
+			height: 70px;
+		}
+		#section_5 .item .info{
+			font-size: 15px;
+			line-height: 26px;
+			font-weight: normal;
+		}
+		#section_5 .item .caption h5{
+			font-size: 20px;
+			font-weight: normal;
+			 border-color: #7F8C8D;
+			display: table;
+			margin: 0 auto 5px;
+			border-bottom: 1px solid;
+		}
+		@media(max-width:767px){
+			.carousel-inner{
+			min-height: 247px;
+			}
+		}
+		@media(max-width:640px){
+			#section_5 .row{
+				margin: 50px 10px 140px 80px;
+			}
+			.carousel-inner{
+			min-height: 325px;
+			}
+		}
+		@media(max-width:480px){
+		  .carousel-inner{
+			min-height: 350px;
+			}   
+		}
+		@media(max-width:360px){
+			.carousel-indicators li {
+			width: 20px;
+			height: 20px;
+			}
+			.carousel-indicators .active {
+			width: 65px;
+			height: 65px;
+			}    
+			.carousel-inner{
+			min-height: 560px;
+			} 
+		}
