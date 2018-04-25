@@ -336,7 +336,7 @@
 		button.alt,
 		.button.alt {
 			background: #FFF;
-			color: #000000;
+			color: #2f3640;
 		}
 
 		input[type="submit"].fit,
@@ -561,13 +561,13 @@
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #000000;
+			background: #b2bec3;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
 			padding: 4em;
 			text-align: center;
-			box-shadow: 0 0 0 1em #FFF;
+			box-shadow: 0 0 0 1em #2f3640;
 			cursor: default;
 		}
 
@@ -585,10 +585,13 @@
 					margin: 0 0 .25em 0;
 					color: #fff;
 				}
+				#header .inner .content h1 img{
+					width:90%; 
+				}
 
 				#header .inner .content h2 {
 					font-size: 1.5em;
-					color: #fff;
+					color: #2f3640;
 					margin: 0 0 1em 0;
 				}
 
@@ -601,12 +604,13 @@
 				border-radius: 30px;
 			}
 
-				#header .inner .button.hidden {
+				#header .inner .button.hidden1 {
 					display: none;
 					cursor: pointer;
 				}
 
-			#header .inner.hidden {
+			#header .inner.hidden1
+			 {
 				display: none;
 			}
 
@@ -641,7 +645,7 @@
 				display: none;
 			}
 
-			#header.hide .button.hidden, #header.preview .button.hidden {
+			#header.hide .button.hidden1, #header.preview .button.hidden1 {
 				text-decoration: none;
 				padding-top: 1.5em;
 				padding-left: 0;
@@ -650,7 +654,7 @@
 				display: inline-block;
 			}
 
-				#header.hide .button.hidden:before, #header.preview .button.hidden:before {
+				#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: FontAwesome;
@@ -659,13 +663,13 @@
 					text-transform: none !important;
 				}
 
-				#header.hide .button.hidden:before, #header.preview .button.hidden:before {
+				#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 					content: '\f015';
-					color: #FFF;
+					color: transparent;
 					font-size: 1.5em;
 				}
 
-				#header.hide .button.hidden span, #header.preview .button.hidden span {
+				#header.hide .button.hidden1 span, #header.preview .button.hidden1 span {
 					display: none;
 				}
 
@@ -911,7 +915,17 @@
 }
 		
 
+.slide__img:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
 
+}
 		/* counter */
 		#counter{
 			height: 400px;
@@ -920,71 +934,17 @@
 			background-size: 100% 100%;	
 			background-attachment: fixed;
 		}
+	#section_5{
+		height: 560px;
+		text-align: center;
+		vertical-align: middle;
+		background-color: #bbb;
+	}
+		.slide_show{
+		opacity: 1;
+	}		
+
 		
-		/* testimonial */
-		#section_5 .row{
-			margin-bottom: 140px;
-			margin-top: 50px;
-			color: #e5e5e5;
-			text-align: center;
-		}
-		.carousel-indicators{
-				bottom: -140px;
-				z-index: 0;
-		}
-		.carousel-indicators li {
-			width: 30px;
-			height: 30px;
-			border-radius: 0px;
-			}
-		.carousel-indicators .active{
-				width: 70px;
-			height: 70px;
-		}
-		#section_5 .item .info{
-			font-size: 15px;
-			line-height: 26px;
-			font-weight: normal;
-		}
-		#section_5 .item .caption h5{
-			font-size: 20px;
-			font-weight: normal;
-			 border-color: #7F8C8D;
-			display: table;
-			margin: 0 auto 5px;
-			border-bottom: 1px solid;
-		}
-		@media(max-width:767px){
-			.carousel-inner{
-			min-height: 247px;
-			}
-		}
-		@media(max-width:640px){
-			#section_5 .row{
-				margin: 50px 10px 140px 80px;
-			}
-			.carousel-inner{
-			min-height: 325px;
-			}
-		}
-		@media(max-width:480px){
-		  .carousel-inner{
-			min-height: 350px;
-			}   
-		}
-		@media(max-width:360px){
-			.carousel-indicators li {
-			width: 20px;
-			height: 20px;
-			}
-			.carousel-indicators .active {
-			width: 65px;
-			height: 65px;
-			}    
-			.carousel-inner{
-			min-height: 560px;
-			} 
-		}
 
 		/* about us */
 		#section_2 {
@@ -1138,4 +1098,11 @@
 			#section_2 ul li:last-child a:hover .info{
 				transform: translateY(351%);
 			}
+		}
+
+		#header.hide .button.hidden1{
+			background-image: url(../../img/REDUX-logo-1024x333.png);
+			background-size: 100% 100%;
+			margin-top: 120px;
+			margin-left: 100px;
 		}

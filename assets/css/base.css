@@ -213,7 +213,7 @@ main {
 }
 
 .slidenav__item:hover {
-	color: var(--color-nav-hover);
+	color: white;
 }
 
 .shape {
@@ -231,7 +231,7 @@ main {
 	margin: 0;
 	cursor: default;
 	line-height: 1;
-	color: var(--color-stitle);
+	color:#64b5f6;
 }
 
 .slide__desc {
@@ -256,13 +256,13 @@ main {
 }
 
 .slide__link:hover {
-	color: var(--color-slink-hover);
+	color: white;
 	background: var(--color-slink-hover-bg);
 }
 
 @media screen and (min-width: 55em) {
 	a.demo--current {
-		background: var(--color-link-hover);
+		background: white;
 	}
 	.demo span {
 		line-height: 1;
