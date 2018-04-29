@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Pattaya|Work+Sans:400,200,300);
-/*
-	REDUX by Arpit Choudhary & Mansi Gupta
-	arpitchoudhary4all.github.io/Redux
-	Released for free under the bond of social cause by Redux
-*/
-/* Reset */
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -92,6 +87,7 @@
 	body {
 		background-color: #fff;
 		color: #444;
+		background-image: url(../../img/background.png);
 	}
 
 	body, input, select, textarea {
@@ -844,7 +840,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color: rgba(0, 0, 0, 0.6)
+			background-color:#b2bec3;
 		}
 		#quote .card blockquote{
 			font-size: 25px;
