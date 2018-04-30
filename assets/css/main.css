@@ -959,10 +959,12 @@
 	}
 
 	#header.hide .button.hidden1{
-		background-image: url(../../img/REDUX-logo-1024x333.png);
-		background-size: 100% 100%;
-		margin-top: 45px;
-		margin-left: 0px;
+		background-image: url(../../img/logo.png);
+    	background-size: 100% 100%;
+    	margin-top: 40px;
+    	margin-left: 0px;
+    	width: 166%;
+    	height: 24px;
 	}
 	#section_6 .meet_team .dimg{
 		box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -1089,4 +1091,47 @@ transform: rotateZ(360deg);
 #section_6 img{
 	width: 100%;
 	height: 300px;
+}
+#form .contact{
+	margin: 20px;
+	padding: 0px 40px;
+	border: 4px solid saddlebrown; 
+	border-radius: 12px 12px;
+}
+#form .contact h1{
+	font-size: 50px;
+	text-align: center;
+	margin: 15px;
+}
+#form .contact textarea{
+	resize: none;
+}
+#form .contact label{
+	font-size: 22px;
+}
+#form .contact input{
+	background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+	width: 100%;
+	color: black;
+	font-weight: bold;
+}
+#form .contact textarea{
+	background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+#form .contact button{
+	background-color: saddlebrown;
+    color: white;
+    font-size: 18px;
+    padding: 0px 35px;
+}
+.red{
+	color: red;
+}
+.title{
+	font-size: 150px;
 }
