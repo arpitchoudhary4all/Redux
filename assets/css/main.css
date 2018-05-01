@@ -697,6 +697,115 @@
 
 		}
 
+		/* menu */
+		#botbar {
+			position: fixed;
+			z-index: 100;
+			width: 100%;
+			padding: 18px 0px;
+			background-color: white;
+			-webkit-box-shadow: 0px 0px 5px 0px gray;
+			box-shadow: 0px 0px 5px 0px gray;
+		}
+		
+		#botbar .container {
+			max-width: 1700px;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		#botbar ul {
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+		
+		#botbar ul li {
+			display: inline-block;
+			padding: 0px 38px;
+		}
+		
+		#botbar ul li a {
+			color: #896633;
+			font-size: 15px;
+			text-decoration: none;
+			position: relative;
+		}
+		
+		#botbar ul li a:after {
+			content: "";
+			position: absolute;
+			background-color: #896633;
+			border: 1px solid #896633;
+			width: 20%;
+			bottom: -10px;
+			left: 25%;
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			opacity: 0;
+		}
+		
+		#botbar ul li:hover a:after {
+			width: 90%;
+			left: 5%;
+			opacity: 1;
+		}
+		
+		#botbar .main-nav {
+			border-right: 1px solid #896633;
+		}
+		
+		@media ( max-width:1100px) {
+			#botbar .container {
+				max-width: 1100px;
+			}
+			#botbar ul li {
+				padding: 0px 10px;
+			}
+		}
+		
+		@media ( max-width:900px) {
+			#botbar ul li {
+				padding: 0px 5px;
+			}
+		}
+		
+		@media ( max-width:767px) {
+			#botbar {
+				display: none;
+			}
+			#header {
+				display: none;
+			}
+			#header_mobile {
+				display: block;
+				position: fixed;
+				width: 100%;
+				z-index: 10000;
+			}
+			.phoneicon {
+				right: 10%;
+				font-size: 25px;
+				top: 0px;
+				position: absolute;
+				color: white;
+				cursor: pointer;
+			}
+			.logo_mobile {
+				display: block;
+				position: absolute;
+				z-index: 100;
+				left: 50%;
+				margin-left: -60px;
+				top: 59px;
+			}
+			#header_mobile .navigation {
+				padding-right: 5px;
+			}
+		}
+		
+
 /* Main */
 
 	#main .inner {
@@ -959,7 +1068,7 @@
 	}
 
 	#header.hide .button.hidden1{
-		background-image: url(../../img/logo.png);
+		background-image: url(https://www.ferblanc.org/FERBLANC/XX_files/XX.png);
     	background-size: 100% 100%;
     	margin-top: 40px;
     	margin-left: 0px;
