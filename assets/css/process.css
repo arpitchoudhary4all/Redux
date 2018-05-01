@@ -255,3 +255,17 @@ h1{
   height: 50%;
   vertical-align: bottom;
 }
+.timeline .second{
+  margin-top: -181px;
+}
+
+.timeline .third{
+  margin-top: -130px;
+}
+
+.timeline .fourth{
+  margin-top: -181px;
+}
+.timeline .fourth .timeline-content{
+  margin-bottom: 40px;
+}
