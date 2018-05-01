@@ -87,7 +87,6 @@
 	body {
 		background-color: #fff;
 		color: #444;
-		background-image: url(../../img/background.png);
 	}
 
 	body, input, select, textarea {
@@ -982,9 +981,13 @@
 			width: 100%;
 		}
 		#method p{
-			font-size: 30px;
+			font-size: 40px;
 			font-weight: bold;
-			font-family: 'Raleway', sans-serif !important; 
+			font-family: 'Raleway', sans-serif !important;
+			margin-top: 25px; 
+		}
+		#method img{
+			width: 75%;
 		}
 
 		/* blog */
@@ -1076,7 +1079,7 @@
 		color: #000000;
 	}
 	.strip__content img{
-		width: 80%;
+		width: 50%;
 	}
 	.strip__content h2{
 	font-size: 50px;
@@ -1273,4 +1276,7 @@ font-family: 'Raleway', sans-serif !important;
 }
 body{
 	font-family: 'Raleway', sans-serif !important; 
+}
+.container{
+	max-width: 1400px !important;
 }
