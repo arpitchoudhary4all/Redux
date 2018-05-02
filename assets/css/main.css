@@ -1380,6 +1380,91 @@ body{
 body{
 	text-align: justify
 }
+
+ul {
+	list-style: none;
+  }
+  
+  a {
+	color: #111;
+	text-decoration: none;
+  }
+  
+  button {
+	border: 0;
+	outline: none;
+	background: transparent;
+  }
+  
+  #mobile_header{
+	width: 80%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+  }
+  
+  #mobile_header .logo {
+	font-size: 15px;
+	font-weight: 700;
+  }
+  
+  #mobile_header .toggle {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	position: fixed;
+	top: -5px;
+	right: 3px;
+	z-index: 100;
+  }
+  
+  #mobile_header .toggle span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #1c2331;
+  }
+  
+  #mobile_header .toggle span{
+	margin-top: 3px;
+  }
+  
+  #mobile_header .background {
+	position: fixed;
+	top: -100vh;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: #b2bec3;
+	z-index: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  }
+  
+  #mobile_header .background .menu {
+	margin-left: 10%;
+	opacity: 0;
+	transform: translateY(-20px);
+  }
+  
+  #mobile_header .background .menu li {
+	margin-bottom: 40px;
+  }
+  
+  #mobile_header .background .menu li:last-child {
+	margin-bottom: 0
+  }
+  
+  #mobile_header .background .menu a {
+	font-size: 30px;
+	font-weight: 700;
+  }
+  #mobile_header a:hover{
+	  color: #1c2331;
+  }
 	@media(max-width:992px){
 		#what_we_do p{
 			font-size: 17px;
@@ -1387,6 +1472,7 @@ body{
 		#what_we_do h2{
 			font-size: 28px;
 		}
+
 	}
 @media(max-width:767px){
 	#quote .card blockquote{
@@ -1400,12 +1486,19 @@ body{
 	#what_we_do p{
 		margin-bottom: 0px;
 	  }
+	  #mobile_header{
+		  display: block;
+	  }
+	  #menu{
+		  display: none;
+	  }
+
 
 	
 }
 @media(min-width:768px){
 	#what_we_do .container{
-		max-width:840px;
+		max-width:1300px;
 	}
 }
 @media(max-width:700px){

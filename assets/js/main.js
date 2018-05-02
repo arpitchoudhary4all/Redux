@@ -1,8 +1,4 @@
-/*
-	Radius by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 (function($) {
 
@@ -115,3 +111,17 @@
 	});
 
 })(jQuery);
+window.addEventListener("load",()=>{
+	var headerToggle = $('header .toggle'),
+    headerBackground = $('header .background'),
+    headerMenu = $('header .background .menu'),
+    headerTl = new TimelineMax({paused: false, reversed: true});
+
+headerTl
+  .to(headerBackground, 0.5, {top: 0, ease: Power2.easeInOut})
+  .to(headerMenu, 0.3, {autoAlpha: 1, y: 0, ease: Power2.easeInOut}, '-=0.2');
+
+headerToggle.on('click', function() {
+  headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+});
+});
