@@ -86,26 +86,19 @@
       top: 0;
       left: 0;
       width: 100%;
+      min-height: 210px;
     }
     .strips__strip:nth-child(2) {
-      top: 20vh;
+      top: 30vh;
       left: 0;
       width: 100%;
+      min-height: 210px;
     }
     .strips__strip:nth-child(3) {
-      top: 40vh;
-      left: 0;
-      width: 100%;
-    }
-    .strips__strip:nth-child(4) {
       top: 60vh;
       left: 0;
       width: 100%;
-    }
-    .strips__strip:nth-child(5) {
-      top: 80vh;
-      left: 0;
-      width: 100%;
+      min-height: 210px;
     }
   }
   .strips .strip__content {

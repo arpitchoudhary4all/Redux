@@ -1359,10 +1359,25 @@ body{
 	font-family: 'Raleway', sans-serif !important; 
 }
 .d_name{
-	font-size: 20px;
+	font-size: 15px;
 	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 	text-decoration: none;
-	
-
+}
+.row{
+	width: 100%;
+}
+@media (max-width:767px){
+	#counter{
+		min-height: 850px;
+	}
+	.timeline,.fourth,.third,.second{
+		margin-top: 15px!important;
+	}
+	.fourth{
+		margin-bottom: 10px;
+	}
+}
+body{
+	text-align: justify
 }
