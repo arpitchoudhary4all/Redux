@@ -124,4 +124,22 @@ headerTl
 headerToggle.on('click', function() {
   headerTl.reversed() ? headerTl.play() : headerTl.reverse();
 });
+  document.querySelector(".move").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
+  document.querySelector(".move1").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
+  document.querySelector(".move2").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
+  document.querySelector(".move3").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
+  document.querySelector(".move4").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
+  document.querySelector(".move5").addEventListener("click",function(){
+	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  });
 });

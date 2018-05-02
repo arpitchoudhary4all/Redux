@@ -1116,7 +1116,7 @@
 		border-radius: 50%;
 		position: relative;
 		transition: all 0.35s ease-in-out;
-		z-index:1 ;
+		
 	}
 	#section_6 .meet_team .dimg img{
 		border: 13px solid transparent ;
