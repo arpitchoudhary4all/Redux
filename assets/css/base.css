@@ -314,3 +314,53 @@ main {
 		font-size: 0.85em;
 	}
 }
+@media(max-width:992px){
+	.slide__title{
+		font-size: 52px;
+		line-height: 70px;
+		margin: auto 20px;
+	}
+}
+
+@media(max-width:640px){
+	.slideshow{
+		height: 60vh;
+	}
+	.slide__title{
+		font-size: 40px;
+		line-height: 55px;
+		margin: auto 20px;
+	}
+}
+@media(max-width:500px){
+	.slide__title{
+		font-size: 35px;
+		line-height: 50px;
+		margin: auto 20px;
+	}
+}
+@media(max-width:440px){
+	.slide__title{
+		font-size: 30px;
+		line-height: 45px;
+		margin: auto 20px;
+	}
+}
+@media(max-width:400px){
+	.slideshow{
+		height: 50vh;
+	}
+	.slide__title{
+		font-size: 28px;
+		line-height: 43px;
+		margin: auto 20px;
+	}
+	
+}
+@media(max-width:360px){
+	.slide__title{
+		font-size: 22px;
+		line-height: 37px;
+		margin: auto 20px;
+	}
+}

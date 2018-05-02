@@ -269,3 +269,30 @@ h1{
 .timeline .fourth .timeline-content{
   margin-bottom: 40px;
 }
+@media(max-width:767px){
+  .timeline .first, .timeline  .second, .timeline  .third, .timeline  .fourth{
+		margin-top: 40px;
+  }
+  .timeline .timeline-content{
+    margin-left: 20px;
+  }
+ 
+  #what_we_do .container{
+    padding-bottom: 40px;
+  }
+}
+@media(max-width:640px){
+  .timeline .timeline-content{
+    margin-left: 40px;
+  }
+}
+
+@media(max-width:540px){
+  .timeline .timeline-content{
+    margin-left: 80px;
+  }
+}
+
+@media(max-width:480px){
+ 
+}
