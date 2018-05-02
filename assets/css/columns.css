@@ -77,27 +77,25 @@
             animation-name: strip5;
     -webkit-animation-delay: 0.5s;
             animation-delay: 0.5s;
-  }@media screen and (max-width: 760px) {
+  }
+  @media screen and (max-width: 760px) {
     .strips__strip {
-      min-height: 20vh;
+      min-height: 30vh;
     }
     .strips__strip:nth-child(1) {
       top: 0;
       left: 0;
       width: 100%;
-      min-height: 210px;
     }
     .strips__strip:nth-child(2) {
       top: 30vh;
       left: 0;
       width: 100%;
-      min-height: 210px;
     }
     .strips__strip:nth-child(3) {
       top: 60vh;
       left: 0;
       width: 100%;
-      min-height: 210px;
     }
   }
   .strips .strip__content {
