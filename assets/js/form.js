@@ -50,5 +50,5 @@ function saveMessage(name,email,phone,message){
        phone:phone,
        message:message
     });
-    alert("Thanks For Ur valuable Suggestion")
+    alert("Thank You For Your Valuable Suggestion")
 }
