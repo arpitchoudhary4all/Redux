@@ -40,6 +40,7 @@
         constructor(el) {
             this.DOM = {};
             this.DOM.el = el;
+            
             this.settings = {
                 animation: {
                     slides: {

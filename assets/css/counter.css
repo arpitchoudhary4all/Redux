@@ -88,7 +88,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item p{
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
   font-size: 18px;
   margin: 0;
   padding: 10px;
@@ -98,7 +98,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .projectFactsWrap .item span{
   width: 60px;
-  background: rgba(255, 255, 255, 0.8);
+  background: black;
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -108,7 +108,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 .projectFactsWrap .item i{
   vertical-align: middle;
   font-size: 50px;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 
@@ -117,7 +117,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item:hover span{
-  background: white;
+  background: black;
+
 }
 
 @media (max-width: 786px){
@@ -220,5 +221,14 @@ footer p strong {
           font-size: 14px;
     }
 }
-
+#counter i{
+  display: block;
+  color: black;
+}
+#counter p{
+  color: black;
+  display: inline;
+  font-weight: bold;
+  font-size: 30px;
+}
 
