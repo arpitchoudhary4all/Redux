@@ -1116,7 +1116,7 @@
 		border-radius: 50%;
 		position: relative;
 		transition: all 0.35s ease-in-out;
-		
+		z-index: 1;
 	}
 	#section_6 .meet_team .dimg img{
 		border: 13px solid transparent ;
@@ -1438,7 +1438,7 @@ ul {
 	width: 100%;
 	height: 100vh;
 	background: #b2bec3;
-	z-index: 1;
+	z-index: 2;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
