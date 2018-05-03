@@ -1163,10 +1163,10 @@
 			margin:20px 10px 10px 10px;
 
 		}
-		#section_6 .meet_team  a:hover .dimg{
+		#section_6 .meet_team  .a:hover .dimg{
 			transform: scale(0.5) translateY(-50%);
 		}
-		#section_6 .meet_team  a:hover  .info{
+		#section_6 .meet_team  .a:hover  .info{
 			opacity: 1;
 			transform: translateY(70%);
 		}
