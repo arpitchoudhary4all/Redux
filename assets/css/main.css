@@ -1058,7 +1058,7 @@
 		#counter{
 			height: 400px;
 			width: 100%;
-			background-image: url(../../img/2016-12-15-Students-Working-Together-condensed-6.jpg);
+			background-image: url(../../img/RPS_0025.JPG);
 			background-size: 100% 100%;	
 			font-family: 'Raleway', sans-serif !important; 
 			background-attachment: fixed;
@@ -1275,7 +1275,7 @@ transform: rotateZ(360deg);
 	font-size: 40px;
 	text-align: center;
 	font-weight: bold;
-	color: #1c2331;
+	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 }
 #form .contact textarea{
@@ -1287,15 +1287,15 @@ transform: rotateZ(360deg);
 #form .contact input{
 	background-color: transparent;
     border: none;
-    border-bottom: 2px solid #1c2331;
+    border-bottom: 2px solid white;
 	width: 100%;
-	color: black;
+	color: white;
 	font-weight: bold;
 }
 #form .contact textarea{
 	background-color: transparent;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 	width: 100%;
 	margin-top: 13px;
 }
@@ -1337,7 +1337,7 @@ body{
 	max-width:1150px ;
 } */
 #section_6{
-	background-image: url(../../img/hand-background-homepage.png);
+	background-image: url(../../img/aboutbg.jpg);
 	background-size: 100% 100%;
 }
 .board_of_advisors{
@@ -1345,8 +1345,21 @@ body{
 	text-align: center;
 }
 #form{
-	background-image: url(../../img/contactuspage-background-bg.jpg);
+	background-image: url(../../img/contactus.jpg);
 	background-size: 100% 100%;
+	color: white;
+	position: relative;
+
+}
+#form::before{
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 .banner_logo{
 	width: 80%;

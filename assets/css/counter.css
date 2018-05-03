@@ -98,7 +98,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .projectFactsWrap .item span{
   width: 60px;
-  background: black;
+  background: white;
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -108,7 +108,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 .projectFactsWrap .item i{
   vertical-align: middle;
   font-size: 50px;
-  color: black;
+  color: white;
 }
 
 
@@ -117,7 +117,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item:hover span{
-  background: black;
+  background: white;
 
 }
 
@@ -223,10 +223,10 @@ footer p strong {
 }
 #counter i{
   display: block;
-  color: black;
+  color: white;
 }
 #counter p{
-  color: black;
+  color: white;
   display: inline;
   font-weight: bold;
   font-size: 30px;
