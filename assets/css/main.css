@@ -530,7 +530,7 @@
 		top: 0;
 		width: 100%;
 		height: 100vh;
-		z-index: 10001;
+		z-index: 1001;
 	}
 
 	#header .inner {
@@ -1064,15 +1064,27 @@
 			background-attachment: fixed;
 			opacity: 0.8;
 		}
-	#section_5{
-		text-align: center;
+
+		#section_5{
+	position: relative;
+			text-align: center;
 		padding: 25px 0px;
 		min-height: 360px; 
-		background-image: url(../../img/testimonials.jpg);
+		background-image: url(../../img/testimonial.JPG);
 		background-size: 100% 100%;
 		vertical-align: middle;
 		background-color: #bbb;
-		opacity: 0.6;
+		/* opacity: 0.6; */
+	}
+	#section_5::before{
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(254, 254, 254, 0.3);
+		position: absolute;
 	}
 	#section_5 .container{
 		max-width: 1500px;
@@ -1087,11 +1099,11 @@
 	#section_5 .carousel-inner p{
 		font-size: 22px;
 		font-family: 'Raleway', sans-serif !important; 
-		color: white;
+		color: #1c2331;
 		font-weight: bold;
 	}
 	#section_5 .carousel-inner h2{
-		color: white;
+		color:  #1c2331;
 		font-weight: bold;
 	}
 	.strip__content img{
@@ -1104,7 +1116,7 @@
 	}
 
 	#header.hide .button.hidden1{
-		background-image: url(https://www.ferblanc.org/FERBLANC/XX_files/XX.png);
+		background-image: url(../../img/favicon.png);
     	background-size: 100% 100%;
     	margin-top: 40px;
     	margin-left: 0px;
@@ -1411,16 +1423,26 @@ ul {
   
   #mobile_header{
 	width: 80%;
-	
+	background-color: white;
+	height: 50px;
 	display: flex;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	display: none;
   }
   
   #mobile_header .logo {
-	font-size: 15px;
-	font-weight: 700;
+	position: fixed;
+    z-index: 1;
+    font-weight: 700;
+    top: 4px;
+    left: 10px;
+  }
+  #mobile_header .logo img{
+	  width: 20%;
   }
   
   #mobile_header .toggle {
@@ -1451,7 +1473,7 @@ ul {
 	width: 100%;
 	height: 100vh;
 	background: #b2bec3;
-	z-index: 2;
+	z-index: 15;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -1505,6 +1527,21 @@ ul {
 	  #menu{
 		  display: none;
 	  }
+	  #header.hide .button.hidden1{
+		background-image: none;
+    	background-size: 0% 0%;
+    	margin-top: -10px;
+    	margin-left: 0px;
+    	width: 166%;
+		height: 0px;
+		
+	}
+	#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
+		content: '\f015';
+		color: white;
+		font-size: 25px;
+		
+	}
 
 
 	
@@ -1514,11 +1551,11 @@ ul {
 		max-width:1300px;
 	}
 }
-@media(max-width:700px){
+/* @media(max-width:700px){
 	#header.hide .button.hidden1{
-		margin-top: 30px;
+		margin-top: 0px;
 	}
-}
+} */
 @media(max-width:640px){
 	.desktop_method{
 		display: none;
@@ -1541,9 +1578,9 @@ ul {
 	  }
 }
 @media(max-width:400px){
-	#header.hide .button.hidden1{
-		margin-top: 27px;
-	}
+	/* #header.hide .button.hidden1{
+		margin-top: 0px;
+	} */
 	#what_we_do p{
 		font-size: 14px;
 	  }
@@ -1563,4 +1600,18 @@ ul {
 	  #what_we_do h2{
 		font-size: 18px;
 	  }
+}
+#blog .card-title{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif !important; 
+}
+#blog .card-text{
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif !important; 
+}
+#blog h3{
+	font-size: 30px;
+	color: #1c2331;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif !important; 
 }
