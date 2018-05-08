@@ -1133,12 +1133,11 @@
 			transform: translateY(100%);
 			background: #1c2331!important;
 			opacity:0 ;
-			
 			transition: all 0.35s ease-in-out;
 			border-radius: 50%;
 			position: absolute;
 			top: -50px;
-			left: 8%;
+			left: 6%;
 			text-align: center;
 			color: white;
 			padding: 10px;
@@ -1146,6 +1145,18 @@
 			font-family: 'Raleway', sans-serif !important; 
 			height: 250px;
 			width: 250px
+		}
+		@media(max-width:840px){
+			.meet_team .wrapper .wrapper_info{
+				width: 96%;
+				left: 4%;
+			}
+		}
+		@media(max-width:640px){
+			.meet_team .wrapper .wrapper_info{
+				width: 54%;
+				left: 24%;
+			}
 		}
 		#section_6 .meet_team .col-md-4{
 			margin-bottom: 75px;
@@ -1392,7 +1403,7 @@ body{
 	font-family: 'Raleway', sans-serif !important; 
 }
 .d_name{
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 	text-decoration: none;

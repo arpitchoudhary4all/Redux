@@ -42,14 +42,16 @@
 
 				var t 		= jQuery(this),
 					button 	= t.find('.button');
-
+					$('body').css('position','fixed');	
 				button.click(function(e) {
 
 					t.toggleClass('hide');
-
+					
+					
 					if ( t.hasClass('preview') ) {
 						return true;
 					} else {
+						$('body').css('position','static');	
 						e.preventDefault();
 					}
 
