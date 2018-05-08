@@ -662,8 +662,8 @@
 
 		#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 			content: '\f015';
-			color: transparent;
-			font-size: 1.5em;
+		color: white;
+		font-size: 25px;
 		}
 
 		#header.hide .button.hidden1 span, #header.preview .button.hidden1 span {
@@ -1070,7 +1070,7 @@
 			text-align: center;
 		padding: 25px 0px;
 		min-height: 360px; 
-		background-image: url(../../img/testimonial.JPG);
+		background-image: url(../../img/testimonials.jpg);
 		background-size: 100% 100%;
 		vertical-align: middle;
 		background-color: #bbb;
@@ -1099,11 +1099,11 @@
 	#section_5 .carousel-inner p{
 		font-size: 22px;
 		font-family: 'Raleway', sans-serif !important; 
-		color: #1c2331;
+		color: white;
 		font-weight: bold;
 	}
 	#section_5 .carousel-inner h2{
-		color:  #1c2331;
+		color: white;
 		font-weight: bold;
 	}
 	.strip__content img{
@@ -1115,14 +1115,6 @@
 	font-family: 'Raleway', sans-serif !important; 
 	}
 
-	#header.hide .button.hidden1{
-		background-image: url(../../img/favicon.png);
-    	background-size: 100% 100%;
-    	margin-top: 40px;
-    	margin-left: 0px;
-    	width: 166%;
-    	height: 24px;
-	}
 	#section_6 .meet_team .dimg{
 		box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
 		border-radius: 50%;
@@ -1290,24 +1282,27 @@ transform: rotateZ(360deg);
 	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 }
-#form .contact textarea{
-	resize: none;
-}
+
 #form .contact label{
 	font-size: 22px;
 }
 #form .contact input{
 	background-color: transparent;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 	width: 100%;
+	outline: none;
 	color: white;
 	font-weight: bold;
 }
 #form .contact textarea{
+	resize: none;
+	color: white;
+	outline: none;
+	border: 1px solid white;
 	background-color: transparent;
-    border: none;
-    border-bottom: 2px solid white;
+
+
 	width: 100%;
 	margin-top: 13px;
 }
@@ -1434,14 +1429,14 @@ ul {
 	display: none;
   }
   
-  #mobile_header .logo {
+  .logo {
 	position: fixed;
     z-index: 1;
     font-weight: 700;
     top: 4px;
     left: 10px;
   }
-  #mobile_header .logo img{
+  .logo img{
 	  width: 20%;
   }
   
@@ -1453,6 +1448,7 @@ ul {
 	top: -5px;
 	right: 3px;
 	z-index: 100;
+	outline: none;
   }
   
   #mobile_header .toggle span {
@@ -1527,7 +1523,7 @@ ul {
 	  #menu{
 		  display: none;
 	  }
-	  #header.hide .button.hidden1{
+	  /* #header.hide .button.hidden1{
 		background-image: none;
     	background-size: 0% 0%;
     	margin-top: -10px;
@@ -1535,7 +1531,7 @@ ul {
     	width: 166%;
 		height: 0px;
 		
-	}
+	} */
 	#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 		content: '\f015';
 		color: white;
@@ -1614,4 +1610,8 @@ ul {
 	color: #1c2331;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif !important; 
+}
+.copy{
+	font-style: italic;
+	 font-family: 'Raleway', sans-serif !important; 
 }
