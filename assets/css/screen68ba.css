@@ -771,10 +771,7 @@ dt {
 .single-post .post-head a {
   color: #ffffff;
 }
-.single-post .post-head a:hover,
-.single-post .post-head a:focus {
-  color: #19ddc4;
-}
+
 .single-post .post-head .category {
   position: relative;
 }
@@ -1318,4 +1315,11 @@ dt {
   .pagination-wrap .page-number {
     display: block;
   }
+}
+.post-template p{
+  font-size: 16px;
+  line-height: 25px;
+}
+.post-template ul li{
+  font-size: 16px;
 }
