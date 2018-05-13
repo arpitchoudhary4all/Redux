@@ -855,7 +855,7 @@
 		display: inline-block;
 		text-decoration: none;
 		border-radius: 50% 50% 0 0;
-		background: #1c2331;
+		background: #244F75;
 		width: 3em;
 		height: 3em;
 		margin-bottom: -1.75em;
@@ -886,7 +886,7 @@
 		-ms-flex-pack: center;
 		position: relative;
 		z-index: 10003;
-		background: #1c2331;
+		background: #244F75;
 		padding: 2em;
 		height: 20em;
 		font-family: 'Raleway', sans-serif !important; 
@@ -1380,7 +1380,7 @@ body{
 	max-width:1150px ;
 } */
 #section_6{
-	background-image: url(../../img/aboutbg.jpg);
+	background-image: url(../../img/aboutbg.png);
 	background-size: 100% 100%;
 }
 .board_of_advisors{
@@ -1388,13 +1388,13 @@ body{
 	text-align: center;
 }
 #form{
-	background-color: linear-gradient(40deg,#45cafc,#303f9f)!important;
-	background-size: 100% 100%;
+	background-image: url(../../img/testimonials.jpg);
+		background-size: 100% 100%;
 	color: white;
 	position: relative;
 
 }
-#form::before{
+/* #form::before{
 	content: "";
 	display: block;
 	height: 100%;
@@ -1403,7 +1403,7 @@ body{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-}
+} */
 .banner_logo{
 	width: 80%;
 }
@@ -1424,7 +1424,7 @@ body{
 	font-family: 'Raleway', sans-serif !important; 
 }
 .d_name{
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 	text-decoration: none;
