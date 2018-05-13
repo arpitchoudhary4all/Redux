@@ -623,9 +623,10 @@
 		}
 
 		#header.hide .inner, #header.preview .inner {
-			height: 6em;
-			width: 6em;
+			height: 20em;
+			width: 20em;
 			padding: 2em;
+			margin-left: -100%;
 		}
 
 		#header.hide .inner .content1, #header.preview .inner .content1 {
@@ -646,8 +647,8 @@
 
 		#header.hide .button.hidden1, #header.preview .button.hidden1 {
 			text-decoration: none;
-			padding-top: 1.5em;
-			padding-left: 0;
+			padding-top: 5.5em;
+			padding-left: 7em;
 			padding-right: 0;
 			background: none;
 			display: inline-block;
@@ -664,8 +665,8 @@
 
 		#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 			content: '\f015';
-		color: black;
-		font-size: 25px;
+		color: red;
+		font-size: 50px;
 		}
 
 		#header.hide .button.hidden1 span, #header.preview .button.hidden1 span {
@@ -735,7 +736,7 @@
 		}
 		
 		#botbar ul li a {
-			color: #1c2331;
+			color: #104e70;
 			font-size: 15px;
 			text-decoration: none;
 			position: relative;
@@ -964,7 +965,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color:#b2bec3;
+			background-color:#104e70;
 		}
 		#quote .card blockquote{
 			font-size: 25px;
@@ -1360,6 +1361,7 @@ body{
 	max-width: 1400px !important;
 } */
 #what_we_do h2{
+	color: #fff;
 	font-size: 30px;
     font-weight: bold;
 }
@@ -1382,7 +1384,7 @@ body{
 	text-align: center;
 }
 #form{
-	background-image: url(../../img/contactus.jpg);
+	background-color: linear-gradient(40deg,#45cafc,#303f9f)!important;
 	background-size: 100% 100%;
 	color: white;
 	position: relative;
