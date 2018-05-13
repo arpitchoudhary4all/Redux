@@ -1129,7 +1129,8 @@
 		font-weight: bold;
 	}
 	.strip__content img{
-		width: 50%;
+		width: 25%;
+		margin-top: -15%;
 	}
 	.strip__content h2{
 	font-size: 50px;

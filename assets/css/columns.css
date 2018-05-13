@@ -4,7 +4,7 @@
   
   .strips {
     position: relative;
-    min-height: 100vh;
+    min-height: 60vh;
     text-align: center;
     overflow: hidden;
     color: white;
@@ -177,10 +177,11 @@
   .strip__title {
     display: block;
     margin: 0;
+    margin-top: -50%;
     position: relative;
     z-index: 2;
     width: 100%;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     color: white;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
