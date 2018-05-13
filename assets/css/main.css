@@ -648,8 +648,8 @@
 
 		#header.hide .button.hidden1, #header.preview .button.hidden1 {
 			text-decoration: none;
-			padding-top: 5.5em;
-			padding-left: 7em;
+			padding-top: 0px;
+			padding-left:11em;
 			padding-right: 0;
 			background: none;
 			display: inline-block;
@@ -971,7 +971,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color:#104e70;
+			background-color:#244F75;
 		}
 		#quote .card blockquote{
 			font-size: 22px;

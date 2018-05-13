@@ -67,7 +67,7 @@ top: 30px;
 padding: 0px;
 left: -15px;
 border-width: 10px 15px 10px 0;
-border-color: transparent #104e70 transparent transparent;
+border-color: transparent #244F75 transparent transparent;
 }
 .timeline-item::after {
 content: '';
@@ -79,7 +79,7 @@ position: relative;
 width: 45%;
 padding: 10px 30px;
 border-radius: 4px;
-background:#104e70;
+background:#244F75;
 color: #fff;
 box-shadow: 6px 6px 20px 0.5px rgba(0, 0, 0, .4);
 font-family: 'Poppins', sans-serif, 'arial'!important;
