@@ -52,7 +52,7 @@
             animation-delay: 0.2s;
   }
   .strips__strip:nth-child(3) .strip__content {
-    background: #8C4B7E;
+    background: #104e70;
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
     -webkit-animation-name: strip3;

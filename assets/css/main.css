@@ -627,6 +627,7 @@
 			width: 20em;
 			padding: 2em;
 			margin-left: -100%;
+			border: 9px solid #000;
 		}
 
 		#header.hide .inner .content1, #header.preview .inner .content1 {
@@ -665,14 +666,19 @@
 
 		#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
 			content: '\f015';
-		color: red;
+		color: transparent;
 		font-size: 50px;
 		}
 
 		#header.hide .button.hidden1 span, #header.preview .button.hidden1 span {
 			display: none;
 		}
-
+		#header.hide .button.hidden1{
+		background-image: url(../../img/REDUX-logo-1024x333.png) !important;
+    	background-size: 50% 92% !important;
+    	margin-top: 114px !important;
+    	margin-left: 0px !important;
+		}
 		@media screen and (max-width: 736px) {
 
 			#header .inner {
@@ -968,7 +974,7 @@
 			background-color:#104e70;
 		}
 		#quote .card blockquote{
-			font-size: 25px;
+			font-size: 22px;
 			margin: 0px;
 			padding: 0px;
 			color: white;
@@ -1135,8 +1141,6 @@
 		text-align: center;
 	}
 	.meet_team .wrapper .team_img{
-		box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
-		border-radius: 50%;
 		position: relative;
 		transition: all 0.35s ease-in-out;
 		z-index: 1;
