@@ -1554,12 +1554,12 @@ ul {
 		  display: none;
 	  }
 	  /* #header.hide .button.hidden1{
-		background-image: none;
-    	background-size: 0% 0%;
+		background-image: url(../../img/REDUX-logo-1024x333.png);
+    	background-size: 100% 100%;
     	margin-top: -10px;
     	margin-left: 0px;
     	width: 166%;
-		height: 0px;
+		height: 100px;
 		
 	} */
 	#header.hide .button.hidden1:before, #header.preview .button.hidden1:before {
