@@ -1691,3 +1691,17 @@ ul {
     content: "\f00d";
     font-size: 30px;
 }
+@media(max-width:480px){
+	#blog .card-title{
+		font-size: 18px;
+	}
+	#method p{
+		font-size: 35px;
+	}
+	#form .contact h1{
+		font-size: 32px;
+	}
+	.logo{
+		top: 10px;
+	}
+}

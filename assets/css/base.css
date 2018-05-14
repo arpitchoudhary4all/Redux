@@ -336,12 +336,20 @@ main {
 		line-height: 55px;
 		margin: auto 20px;
 	}
+	.slidenav{
+		top: 42%;
+	}
 }
 @media(max-width:500px){
 	.slide__title{
 		font-size: 35px;
 		line-height: 50px;
 		margin: auto 20px;
+	}
+}
+@media(max-width:480px){
+	.slide__title{
+		width: 58%;
 	}
 }
 @media(max-width:440px){
@@ -364,7 +372,7 @@ main {
 }
 @media(max-width:360px){
 	.slide__title{
-		font-size: 22px;
+		font-size: 24px;
 		line-height: 37px;
 		margin: auto 20px;
 	}
@@ -382,7 +390,7 @@ main {
 	}
 }
 @media (max-width:480px){
-	.sidenav{
+	.slidenav{
 		top: 49%;
 		font-size: 32px;
 	}

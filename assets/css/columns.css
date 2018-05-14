@@ -338,3 +338,8 @@
   p {
     margin: 0 0 16px;
   }
+  @media(max-width:480px){
+    .strips{
+      min-height: 95vh;
+    }
+  }
