@@ -679,6 +679,11 @@
     	margin-top: 114px !important;
     	margin-left: 0px !important;
 		}
+		@media screen and (max-width: 767px) {
+			#header.hide{
+				top: -200px;
+			}
+		}
 		@media screen and (max-width: 736px) {
 
 			#header .inner {
@@ -974,7 +979,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color:#244F75;
+			background-color:#d13135;
 		}
 		#quote .card blockquote{
 			font-size: 22px;
@@ -1018,6 +1023,7 @@
     border-radius: 6px;
 	padding: 14px;
 	max-height: 95%;
+	min-height:470px ;
 	font-family: 'Raleway', sans-serif !important; 
 }
 
@@ -1369,7 +1375,7 @@ body{
 	max-width: 1400px !important;
 } */
 #what_we_do h2{
-	color: #fff;
+	color: #d13135;
 	font-size: 30px;
     font-weight: bold;
 }
@@ -1651,8 +1657,12 @@ ul {
 		font-size: 18px;
 	  }
 }
+#blog{
+	margin-bottom: 35px;
+}
 #blog .card-title{
-	font-size: 30px;
+
+	font-size: 27px;
 	font-family: 'Raleway', sans-serif !important; 
 }
 #blog .card-text{
@@ -1671,4 +1681,13 @@ ul {
 }
 *{
 	z-index: 0;
+}
+@media (max-width:800px){
+	#quote .card blockquote{
+		font-size: 16px;
+	}
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+    font-size: 30px;
 }

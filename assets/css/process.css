@@ -67,7 +67,7 @@ top: 30px;
 padding: 0px;
 left: -15px;
 border-width: 10px 15px 10px 0;
-border-color: transparent #244F75 transparent transparent;
+border-color: transparent #fff transparent transparent;
 }
 .timeline-item::after {
 content: '';
@@ -79,8 +79,8 @@ position: relative;
 width: 45%;
 padding: 10px 30px;
 border-radius: 4px;
-background:#244F75;
-color: #fff;
+background:#fff;
+color: #d13135;
 box-shadow: 6px 6px 20px 0.5px rgba(0, 0, 0, .4);
 font-family: 'Poppins', sans-serif, 'arial'!important;
 }
@@ -93,12 +93,12 @@ height: 0;
 top: 30px;
 right: -15px;
 border-width: 10px 0 10px 15px;
-border-color: transparent transparent transparent #104e70;
+border-color: transparent transparent transparent #fff;
 }
 .timeline-img {
 width: 30px;
 height: 30px;
-background: #2f3640;
+background: #fff;
 border-radius: 50%;
 position: absolute;
 left: 50%;

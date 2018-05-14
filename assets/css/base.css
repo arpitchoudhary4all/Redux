@@ -199,9 +199,9 @@ main {
 .slidenav {
 	position: absolute;
 	width: 100%;
-	top: 30%;
+	top: 46%;
 	font-size: 50px;		
-	padding: 2em;
+	padding: 10px;
 	color: #434343;
 	font-family: 'Raleway', sans-serif !important; 
 }
@@ -215,7 +215,7 @@ main {
 }
 .slidenav__item--next{
 	position: absolute;
-	right: 100px;
+	right: 1%;
 
 }
 .slidenav__item:focus {
@@ -367,5 +367,23 @@ main {
 		font-size: 22px;
 		line-height: 37px;
 		margin: auto 20px;
+	}
+}
+@media (max-width:767px){
+	.slide_title{
+		width: 60%;
+	}
+}
+
+@media (max-width:640px){
+	.sidenav{
+		top: 46%;
+		font-size: 40px;
+	}
+}
+@media (max-width:480px){
+	.sidenav{
+		top: 49%;
+		font-size: 32px;
 	}
 }
