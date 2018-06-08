@@ -979,7 +979,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color:#244f75;
+			background-color:#d13135;
 		}
 		#quote .card blockquote{
 			font-size: 22px;
@@ -1364,7 +1364,7 @@ transform: rotateZ(360deg);
 	font-size: 150px;
 }
 .timeline{
-	background-image: url(../../img/atlantic.jpg);
+	background-image: url(../../img/hand-background-homepage.png);
 	background-size: 100% 100%;
 	font-family: 'Raleway', sans-serif !important; 
 }
