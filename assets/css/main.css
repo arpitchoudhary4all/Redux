@@ -1098,14 +1098,17 @@
 		}
 
 		#section_5{
-	position: relative;
+		position: relative;
 			text-align: center;
 		padding: 25px 0px;
 		min-height: 360px; 
-		background-image: url(../../img/testimonials.jpg);
+		/* background-image: url(../../img/testimonials.jpg); */
 		background-size: 100% 100%;
 		vertical-align: middle;
-		background-color: #bbb;
+		/* background-color: #bbb; */
+		background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		/* opacity: 0.6; */
 	}
 	#section_5::before{
@@ -1115,7 +1118,7 @@
 		height: 100%;
 		top: 0px;
 		left: 0px;
-		background-color: rgba(254, 254, 254, 0.3);
+		/* background-color: rgba(254, 254, 254, 0.3); */
 		position: absolute;
 	}
 	#section_5 .container{
@@ -1185,7 +1188,7 @@
 			font-size: 100%;
 			font-family: 'Raleway', sans-serif !important; 
 			height: 250px;
-			width: 85%;
+			width: 80%;
 		}
 		@media(max-width:840px){
 			.meet_team .wrapper .wrapper_info{
@@ -1380,7 +1383,7 @@ transform: rotateZ(360deg);
 	font-size: 150px;
 }
 .timeline{
-	background-image: url(../../img/mentor.png);
+	/* background-image: url(../../img/mentor.png); */
 	background-size: 100% 100%;
 	font-family: 'Raleway', sans-serif !important; 
 }
@@ -1391,13 +1394,17 @@ body{
 	max-width: 1400px !important;
 } */
 #what_we_do h2{
-	color: #d13135;
-	font-size: 30px;
+	color: #fff;
+	font-size: 40px;
     font-weight: bold;
+}
+.whatwedo{
+	color: #000!important;
+	font-size: 30px;
 }
 #what_we_do p{
     font-size: 19px;
-    text-align: -webkit-auto;
+    text-align: center;
 }
 #method{
 	margin-bottom: 30px;
@@ -1406,7 +1413,10 @@ body{
 	max-width:1150px ;
 } */
 #section_6{
-	background-image: url(../../img/aboutbg.png);
+	/* background-image: url(../../img/aboutbg.png); */
+	background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: 100% 100%;
 }
 .board_of_advisors{
