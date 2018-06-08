@@ -1181,7 +1181,7 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
 			border-radius: 50%;
 			position: absolute;
 			top: -50px;
-			left: 8%;
+			left: 1%;
 			text-align: center;
 			color: white;
 			padding: 10px;
@@ -1384,6 +1384,7 @@ transform: rotateZ(360deg);
 }
 .timeline{
 	/* background-image: url(../../img/mentor.png); */
+	background-color: #ececec;
 	background-size: 100% 100%;
 	font-family: 'Raleway', sans-serif !important; 
 }
