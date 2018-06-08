@@ -11,13 +11,13 @@
   }
   @media(max-width:760px){
    .strips{
-    min-height: 100vh;
+    min-height: 90vh;
     }
   }
   .strips__strip {
     will-change: width, left, z-index, height;
     position: absolute;
-    width: 33.5%;
+    width: 34.5%;
     min-height: 100vh;
     overflow: hidden;
     cursor: pointer;
@@ -48,7 +48,7 @@
             animation-delay: 0.1s;
   }
   .strips__strip:nth-child(2) .strip__content {
-    background: #e28b25;
+    background: #E28B24;
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
     -webkit-animation-name: strip2;
@@ -340,6 +340,6 @@
   }
   @media(max-width:480px){
     .strips{
-      min-height: 95vh;
+      min-height: 90vh;
     }
   }

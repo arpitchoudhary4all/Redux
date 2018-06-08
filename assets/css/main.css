@@ -525,7 +525,7 @@
 		display: -ms-flexbox;
 		-ms-flex-align: center;
 		-ms-flex-pack: center;
-		background: rgba(28,35,49,0.6); 	
+		background: rgba(256,256,256,0.9);
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -563,7 +563,7 @@
     height: 30em;
     padding: 4em;
     text-align: center;
-    /* box-shadow: 0 0 0 10px #1c2331; */
+    box-shadow: 0 0 10px 1px  rgba(0,0,0,0.2);
 		cursor: default;
 		}
 
@@ -627,7 +627,7 @@
 			width: 20em;
 			padding: 2em;
 			margin-left: -100%;
-			border: 9px solid #000;
+			border: 9px solid red;
 		}
 
 		#header.hide .inner .content1, #header.preview .inner .content1 {
@@ -750,7 +750,7 @@
 		}
 		
 		#botbar ul li a {
-			color: #104e70;
+			color: #d13135;
 			font-size: 15px;
 			text-decoration: none;
 			position: relative;
@@ -863,7 +863,7 @@
 		display: inline-block;
 		text-decoration: none;
 		border-radius: 50% 50% 0 0;
-		background: #244F75;
+		background: #d13135;
 		width: 3em;
 		height: 3em;
 		margin-bottom: -1.75em;
@@ -894,7 +894,7 @@
 		-ms-flex-pack: center;
 		position: relative;
 		z-index: 10003;
-		background: #244F75;
+		background: #d13135;
 		padding: 2em;
 		height: 20em;
 		font-family: 'Raleway', sans-serif !important; 
@@ -979,7 +979,7 @@
 		/* Quote */
 		#quote .card{
 			padding: 20px;
-			background-color:#d13135;
+			background-color:#244f75;
 		}
 		#quote .card blockquote{
 			font-size: 22px;
@@ -997,6 +997,7 @@
 		/* Timeline */
 		.timeline{
 			padding-top: 25px;
+			padding-bottom: 5px;
 		}
 		.timeline-item img{
 			height: 100%;
@@ -1129,13 +1130,23 @@
 	}		
 	#section_5 .carousel-inner p{
 		font-size: 22px;
+		text-align: justify;
 		font-family: 'Raleway', sans-serif !important; 
 		color: white;
-		font-weight: bold;
+	}
+	@media(max-width:640px){
+		#section_5 .carousel-inner{
+			padding: 0px 20px 0px 0px;
+		}
+		#section_5 .carousel-inner h2{
+			font-size: 20px;
+		}
+		#section_5 .carousel-inner p{
+			font-size: 19px;
+		}
 	}
 	#section_5 .carousel-inner h2{
 		color: white;
-		font-weight: bold;
 	}
 	.strip__content img{
 		width: 25%;
@@ -1167,19 +1178,19 @@
 			border-radius: 50%;
 			position: absolute;
 			top: -50px;
-			left: 6%;
+			left: 8%;
 			text-align: center;
 			color: white;
 			padding: 10px;
 			font-size: 100%;
 			font-family: 'Raleway', sans-serif !important; 
 			height: 250px;
-			width: 250px
+			width: 85%;
 		}
 		@media(max-width:840px){
 			.meet_team .wrapper .wrapper_info{
-				width: 96%;
-				left: 4%;
+				width: 70%;
+				left: 15%;
 			}
 		}
 		@media(max-width:640px){
@@ -1190,6 +1201,11 @@
 		}
 		#section_6 .meet_team .col-md-4{
 			margin-bottom: 75px;
+		}
+		@media(max-width:480px){
+			#section_6 .meet_team .col-md-4{
+				margin-bottom: 20px;
+			}
 		}
 		.meet_team .wrapper .wrapper_info h4{
 			margin: 25px 25px 10px 25px ;
@@ -1241,7 +1257,7 @@ z-index: 20;
 color: white !important;
 }
 #section_6 .icon h3{
-width: 100%;  
+ 
 font-size: 25px;
 display: inline;
 margin: 1px;
@@ -1364,7 +1380,7 @@ transform: rotateZ(360deg);
 	font-size: 150px;
 }
 .timeline{
-	background-image: url(../../img/hand-background-homepage.png);
+	background-image: url(../../img/mentor.png);
 	background-size: 100% 100%;
 	font-family: 'Raleway', sans-serif !important; 
 }
@@ -1511,11 +1527,11 @@ ul {
   
   #mobile_header .background {
 	position: fixed;
-	top: -100vh;
+	top: 720px;
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background: #244F75;
+	background: #d13135;
 	z-index: 15;
 	display: flex;
 	justify-content: flex-start;
@@ -1599,7 +1615,8 @@ ul {
 }
 @media(max-width:992px){
 	.wrapper{
-		width: 100%;
+		width: 80%;
+		margin-left: 10%;
 	}
 }
 @media(min-width:768px){
@@ -1691,6 +1708,11 @@ ul {
     content: "\f00d";
     font-size: 30px;
 }
+@media(max-width:767px){
+	#blog .card{
+		min-height: 430px;
+	}
+}
 @media(max-width:480px){
 	#blog .card-title{
 		font-size: 18px;
@@ -1704,4 +1726,9 @@ ul {
 	.logo{
 		top: 10px;
 	}
+}
+#quote{
+	opacity: 0;
+	height: 0px;
+	width: 100%;
 }
