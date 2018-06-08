@@ -17,7 +17,7 @@
   .strips__strip {
     will-change: width, left, z-index, height;
     position: absolute;
-    width: 33.5%;
+    width: 34.5%;
     min-height: 100vh;
     overflow: hidden;
     cursor: pointer;
@@ -39,7 +39,7 @@
     left: 80vw;
   }
   .strips__strip:nth-child(1) .strip__content {
-    background: #244F75;
+    background: #d13135;
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
     -webkit-animation-name: strip1;
@@ -48,7 +48,7 @@
             animation-delay: 0.1s;
   }
   .strips__strip:nth-child(2) .strip__content {
-    background: #60BFBF;
+    background: #E28B24;
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
     -webkit-animation-name: strip2;
@@ -57,7 +57,7 @@
             animation-delay: 0.2s;
   }
   .strips__strip:nth-child(3) .strip__content {
-    background: #104e70;
+    background: #d13135;
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
     -webkit-animation-name: strip3;

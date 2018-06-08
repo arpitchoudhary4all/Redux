@@ -525,7 +525,7 @@
 		display: -ms-flexbox;
 		-ms-flex-align: center;
 		-ms-flex-pack: center;
-		background: rgba(28,35,49,0.6); 	
+		background: rgba(256,256,256,0.9);
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -563,7 +563,7 @@
     height: 30em;
     padding: 4em;
     text-align: center;
-    /* box-shadow: 0 0 0 10px #1c2331; */
+    box-shadow: 0 0 10px 1px  rgba(0,0,0,0.2);
 		cursor: default;
 		}
 
@@ -627,7 +627,7 @@
 			width: 20em;
 			padding: 2em;
 			margin-left: -100%;
-			border: 9px solid #000;
+			border: 9px solid red;
 		}
 
 		#header.hide .inner .content1, #header.preview .inner .content1 {
@@ -750,7 +750,7 @@
 		}
 		
 		#botbar ul li a {
-			color: #104e70;
+			color: #d13135;
 			font-size: 15px;
 			text-decoration: none;
 			position: relative;
@@ -863,7 +863,7 @@
 		display: inline-block;
 		text-decoration: none;
 		border-radius: 50% 50% 0 0;
-		background: #244F75;
+		background: #d13135;
 		width: 3em;
 		height: 3em;
 		margin-bottom: -1.75em;
@@ -894,7 +894,7 @@
 		-ms-flex-pack: center;
 		position: relative;
 		z-index: 10003;
-		background: #244F75;
+		background: #d13135;
 		padding: 2em;
 		height: 20em;
 		font-family: 'Raleway', sans-serif !important; 
@@ -1241,7 +1241,7 @@ z-index: 20;
 color: white !important;
 }
 #section_6 .icon h3{
-width: 100%;  
+ 
 font-size: 25px;
 display: inline;
 margin: 1px;
@@ -1364,7 +1364,7 @@ transform: rotateZ(360deg);
 	font-size: 150px;
 }
 .timeline{
-	background-image: url(../../img/atlantic.jpg);
+	background-image: url(../../img/mentor.png);
 	background-size: 100% 100%;
 	font-family: 'Raleway', sans-serif !important; 
 }
@@ -1704,4 +1704,9 @@ ul {
 	.logo{
 		top: 10px;
 	}
+}
+#quote{
+	opacity: 0;
+	height: 0px;
+	width: 100%;
 }
