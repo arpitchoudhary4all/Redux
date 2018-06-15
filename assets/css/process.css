@@ -49,6 +49,7 @@ transform: translateX(-50%);
 } */
 .timeline-item {
 width: 100%;
+margin-bottom: 20px;
 
 }
 .timeline-item:nth-child(even) .timeline-content {
@@ -81,7 +82,8 @@ clear: both;
 .timeline-content {
 position: relative;
 width: 100%;
-padding: 0px 0px 5px 0px;
+max-height: 320px;
+padding: 0px 0px 10px 0px;
 border-radius: 4px;
 background:#d13135;
 color: #fff;

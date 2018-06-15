@@ -1002,6 +1002,7 @@
 		.timeline-item img{
 			height: 100%;
 			width: 100%;
+			max-height: 200px;
 		}
 		#method p{
 			font-size: 40px;
@@ -1132,10 +1133,13 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
 		min-height: 260px;
 	}		
 	#section_5 .carousel-inner p{
-		font-size: 22px;
+		font-size: 18px;
 		text-align: justify;
 		font-family: 'Raleway', sans-serif !important; 
 		color: white;
+	}
+	#section_5 .carousel-inner h2{
+		font-size: 20px;
 	}
 	@media(max-width:640px){
 		#section_5 .carousel-inner{
@@ -1397,7 +1401,7 @@ body{
 #what_we_do h2{
 	color: #fff;
 	font-size: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .whatwedo{
 	color: #000!important;
@@ -1577,7 +1581,7 @@ ul {
 			font-size: 17px;
 		}
 		#what_we_do h2{
-			font-size: 28px;
+			font-size: 25px;
 		}
 
 	}
@@ -1742,4 +1746,9 @@ ul {
 	opacity: 0;
 	height: 0px;
 	width: 100%;
+}
+.whatwedo{
+	font-weight: bold !important;
+	font-size: 28px !important;
+
 }
