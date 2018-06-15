@@ -1025,7 +1025,7 @@
     border-radius: 6px;
 	padding: 14px;
 	max-height: 95%;
-	min-height:470px ;
+	min-height:420px ;
 	font-family: 'Raleway', sans-serif !important; 
 }
 
@@ -1102,7 +1102,6 @@
 		position: relative;
 			text-align: center;
 		padding: 25px 0px;
-		min-height: 360px; 
 		/* background-image: url(../../img/testimonials.jpg); */
 		background-size: 100% 100%;
 		vertical-align: middle;
@@ -1137,6 +1136,7 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
 		text-align: justify;
 		font-family: 'Raleway', sans-serif !important; 
 		color: white;
+		min-height: 170px;
 	}
 	#section_5 .carousel-inner h2{
 		font-size: 20px;
@@ -1324,7 +1324,7 @@ transform: rotateZ(360deg);
 }
 #section_6 h2{
 	text-align: center;
-	font-size: 35px;
+	font-size: 50px;
     font-weight: bold;
     margin: 20px 0px;
 }
