@@ -51,9 +51,8 @@ section.color-bg .section-title .breadcrumbs a:before {
 	z-index:3;
 	width:160px;
 	height:160px;
-	margin-left: 36%;
 	display:inline-block;
-    margin-top: 27%;
+    margin-top: 20%;
     margin-left: 35%;
 }
 @media(max-width:767px){
@@ -155,6 +154,7 @@ section.color-bg .section-title .breadcrumbs a:before {
 .color-bg-text  {
 	padding-top:70px;
 	padding-left:30px;
+	font-size: 18px;
 }
 .color-bg-text h3 {
 	font-size:34px;
@@ -169,6 +169,9 @@ section.color-bg .section-title .breadcrumbs a:before {
 		font-size: 25px;
 		text-align: center;
 	}
+}
+.color-bg{
+	min-height:350px;
 }
 .color-bg-text p {
 	text-align:left;
@@ -186,3 +189,5 @@ section.color-bg .section-title .breadcrumbs a:before {
     position: relative;
     box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.4);
 }
+
+
