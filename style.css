@@ -13,7 +13,7 @@
 	background-image:url(../images/bg/shapes-small.png);
 }
 .shapes-bg-big:before{
-	background-image:url(img/bg_intern.jpg);
+	background-image:url(img/aboutbg.png);
 	background-size: 100% 100%;
 	transform: rotateY(360);
 }
@@ -48,13 +48,13 @@ section.color-bg .section-title .breadcrumbs a:before {
 	overflow:hidden;
 }
 .images-collage-main{
-	position:relative;
-	z-index:3;
-	width:160px;
-	height:160px;
-	display:inline-block;
-    margin-top: 20%;
-    margin-left: 35%;
+	position: relative;
+	z-index: 3;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin-top: 22%;
+	margin-left: 33%;
 }
 @media(max-width:767px){
 	.images-collage-main{
@@ -113,9 +113,6 @@ section.color-bg .section-title .breadcrumbs a:before {
 	z-index:-1;
 	opacity:0.6;
 	border-radius:100%;
-}
-.main_image{
-	box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
 }
 .anim-col {
 	animation:anim-col 4.15s infinite ;

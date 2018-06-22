@@ -82,13 +82,16 @@ clear: both;
 .timeline-content {
 position: relative;
 width: 100%;
-max-height: 350px;
+min-height: 350px;
 padding: 0px 0px 10px 0px;
 border-radius: 4px;
 background:#d13135;
 color: #fff;
 box-shadow: 6px 6px 20px 0.5px rgba(0, 0, 0, .4);
 font-family: 'Poppins', sans-serif, 'arial'!important;
+}
+.timeline-content p{
+  margin: 0px;
 }
 /* .timeline-content::after {
 content: '';

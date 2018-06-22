@@ -1321,6 +1321,9 @@ transform: rotateZ(360deg);
 #section_6 .column .icon span i:hover{
 	background: #af9a5f;    
 }
+.ml-md-auto {
+    margin: 0% -12% 4% 16%!important;
+}
 #section_6 h2{
 	text-align: center;
 	font-size: 50px;
@@ -1346,31 +1349,32 @@ transform: rotateZ(360deg);
 	font-size: 40px;
 	text-align: center;
 	font-weight: bold;
-	color: black;
+	color: #fff;
 	font-family: 'Raleway', sans-serif !important; 
+}
+#form .contact h2,#form .contact h3{
+	color: #fff;
 }
 
 #form .contact label{
 	font-size: 22px;
-	color: black;
+	color: #fff;
 }
 #form .contact input{
 	background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 	width: 100%;
 	outline: none;
-	color: black;
+	color: #fff;
 	font-weight: bold;
 }
 #form .contact textarea{
 	resize: none;
-	color: black;
+	color: white;
 	outline: none;
-	border: 1px solid black;
+	border: 1px solid #fff;
 	background-color: transparent;
-
-
 	width: 100%;
 	margin-top: 13px;
 }
@@ -1418,7 +1422,7 @@ body{
 	max-width:1150px ;
 } */
 #section_6{
-	/* background-image: url(../../img/aboutbg.png); */
+	background-image: url(../../img/aboutbg.png);
 	background: #fffbd5;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -1429,12 +1433,11 @@ background: linear-gradient(to top, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Fir
 	text-align: center;
 }
 #form{
-	/* background-image: url(../../img/testimonials.jpg); */
-	background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-		background-size: 100% 100%;
+	background-image: url(../../img/testimonials.jpg);
+	/* background: #C9D6FF;  /* fallback for old browsers */
+	/* background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+	background-size: 100% 100%;
 	color: white;
 	position: relative;
 
