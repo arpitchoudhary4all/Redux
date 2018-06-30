@@ -1,4 +1,4 @@
-.shapes-bg-small:before  , .shapes-bg-big:before  {
+/* .shapes-bg-small:before  , .shapes-bg-big:before  {
 	content:'';
 	position:absolute;
 	top:0;
@@ -6,7 +6,7 @@
 	width:100%;
 	height:100%;
 	opacity:0.6;
-}
+} */
 .shapes-bg-small:before{
 	background-attachment:scroll;
 	background-size:cover;
@@ -22,7 +22,7 @@
 	height:auto;
 }
 /*------ section-------------------------------------------------*/
-section {
+/* section {
 	float:left;
 	width:100%;
 	position:relative;
@@ -30,7 +30,7 @@ section {
 	overflow:hidden;
 	background:white;
 	z-index:1;
-}
+} */
 section.color-bg .section-title .breadcrumbs {
 	margin-top:0;
 	margin-bottom:10px;
