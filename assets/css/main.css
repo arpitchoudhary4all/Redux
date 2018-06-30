@@ -1803,19 +1803,15 @@ ul {
 		font-weight: bold;
 		font-size: 18px;
 	}
-	/* #method{
-		position: relative;
-	} */
 	#gamble{		
 	    transition: 2s;
     position: absolute;
     top: -600px;
     left: 26%;
-    /* height: 200px; */
     width: 40% !important;
 	height: 80%;
 	z-index: 20;
 	}
 	.move{
-		top: 80px;
+		top: 1680px!important;
 	}
