@@ -50,16 +50,33 @@ section.color-bg .section-title .breadcrumbs a:before {
 .images-collage-main{
 	position: relative;
 	z-index: 3;
-	width: 180px;
-	height: 180px;
+	width: 140px;
+	height: 140px;
 	display: inline-block;
-	margin-top: 22%;
-	margin-left: 33%;
+	margin-top: 28%;
+	margin-left: 38%;
+}
+@media(max-width:1200px){
+	.images-collage-main{
+		margin-top: 33%;
+		margin-left: 36%;
+	}
+}
+@media(max-width:992px){
+	.images-collage-main{
+		margin-top: 60%;
+		margin-left: 30%;
+	}
+	.images-collage:before {
+		margin-top: -96px;
+	}
 }
 @media(max-width:767px){
 	.images-collage-main{
-		width: 100px;
-		height: 100px;
+		width: 160px;
+		height: 160px;
+		margin-top: 20%;
+		margin-left: 34%;
 	}
 }
 .images-collage-other {
@@ -113,6 +130,12 @@ section.color-bg .section-title .breadcrumbs a:before {
 	z-index:-1;
 	opacity:0.6;
 	border-radius:100%;
+}
+
+@media(max-width:500px){
+	.images-collage:before {
+		top: 60%;
+	}
 }
 .anim-col {
 	animation:anim-col 4.15s infinite ;
