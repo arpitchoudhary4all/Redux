@@ -117,7 +117,8 @@ window.addEventListener("load",()=>{
 	var headerToggle = $('header .toggle'),
     headerBackground = $('header .background'),
     headerMenu = $('header .background .menu'),
-    headerTl = new TimelineMax({paused: false, reversed: true});
+		headerTl = new TimelineMax({paused: false, reversed: true});
+		// document.querySelector("#method").addEventListener("click",display);
 
 headerTl
   .to(headerBackground, 0.5, {top: 0, ease: Power2.easeInOut})
@@ -145,3 +146,14 @@ headerToggle.on('click', function() {
 	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
   });
 });
+$(".main-nav").find("a").click(function(e) {
+	e.preventDefault();
+	var section = $(this).attr("href");
+	$("html, body").animate({
+			scrollTop: $(section).offset().top
+	});
+});
+
+// function display(){
+// 	document.querySelector("#gamble").classList.toggle("move");
+// }
