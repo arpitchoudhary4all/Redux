@@ -1345,6 +1345,7 @@ transform: rotateZ(360deg);
 	font-size: 30px;
 	font-weight: bold;
 	color: #1c2331;
+	margin-top: 10px;
 	font-family: 'Raleway', sans-serif !important; 
 }
 #section_6 img{
@@ -1644,10 +1645,19 @@ ul {
 	
 }
 @media(max-width:992px){
-	.wrapper{
-		width: 80%;
-		margin-left: 10%;
-	}
+#section_6 .col-12, #section_6 .col-md-4{
+	padding: 0px;
+}
+.meet_team .wrapper .wrapper_info span{
+	font-size: 15px;
+}
+.meet_team .wrapper .wrapper_info h4
+{
+	font-size: 17px;
+}
+.meet_team .wrapper .wrapper_info{
+	width: 92%;
+}
 }
 @media(min-width:768px){
 	#what_we_do .container{
@@ -1805,13 +1815,42 @@ ul {
 	}
 	#gamble{		
 	    transition: 2s;
-    position: absolute;
+    position: fixed;
     top: -600px;
     left: 26%;
     width: 40% !important;
 	height: 80%;
 	z-index: 20;
+	opacity: 0;
 	}
-	.move{
-		top: 1680px!important;
+	.hover:hover #gamble{
+		top: 80px;
+		opacity: 1;
+	}
+	@media(max-width:1200px){
+		.meet_team .wrapper .wrapper_info{
+			left: 9%;
+			height: 235px;
+		}
+
+	}
+	@media(max-width:992px){
+		.meet_team .wrapper .wrapper_info{
+			left: 1%;
+			height: 220px;
+			top: -40px;
+				}
+	}
+	@media(max-width:767px){
+		#section_6 .col-12,#section_6 .col-md-4{
+			padding: 0px 15px;
+		}
+		.meet_team .wrapper .wrapper_info{
+			left:15%;
+			width: 65%;
+		}
+		#section_6 .ml-md-auto{
+			margin: 0px !important;
+			margin-bottom: 25px !important;
+		}
 	}

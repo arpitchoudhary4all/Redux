@@ -202,7 +202,7 @@ main {
 	top: 46%;
 	font-size: 50px;		
 	padding: 10px;
-	color: #434343;
+	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 }
 
@@ -210,7 +210,7 @@ main {
 	border: 0;
 	background: none;
 	font-weight: bold;
-	color: #434343;
+	color: white;
 	font-family: 'Raleway', sans-serif !important; 
 }
 .slidenav__item--next{
@@ -223,7 +223,7 @@ main {
 }
 
 .slidenav__item:hover {
-	color: #434343;
+	color: white;
 }
 
 .shape {
