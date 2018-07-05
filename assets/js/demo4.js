@@ -88,7 +88,7 @@
                         <path fill="${this.settings.frameFill}" d="${this.paths.initial}"/>
                     </clipPath>
                 </defs>
-                <image xlink:href="http://feerick.co/wp-content/uploads/2018/05/india-world-map-our-hometowns-pinterest-hd-with-names.jpg" clip-path="url(#shape__clip)" x="0" y="0" width="${imgFillSize.width}px" height="${imgFillSize.height}px"/>
+                <image xlink:href="https://upload.wikimedia.org/wikipedia/commons/1/11/Geylang_Planning_Area_locator_map.png" clip-path="url(#shape__clip)" x="0" y="0" width="${imgFillSize.width}px" height="${imgFillSize.height}px" opacity="0.8"/>
             `;
             this.DOM.el.insertBefore(this.DOM.svg, this.DOM.titles);
             this.DOM.shape = this.DOM.svg.querySelector('path');
