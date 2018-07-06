@@ -88,7 +88,7 @@
                         <path fill="${this.settings.frameFill}" d="${this.paths.initial}"/>
                     </clipPath>
                 </defs>
-                <image xlink:href="http://roundtripticket.me/media/blank-map-of-asia-throughout.jpg" clip-path="url(#shape__clip)" x="0" y="0" width="${imgFillSize.width}px" height="${imgFillSize.height}px"/>
+                <image xlink:href="../../img/map.jpg" clip-path="url(#shape__clip)" x="0" y="0" width="${imgFillSize.width}px" height="${imgFillSize.height}px"/>
             `;
             this.DOM.el.insertBefore(this.DOM.svg, this.DOM.titles);
             this.DOM.shape = this.DOM.svg.querySelector('path');
