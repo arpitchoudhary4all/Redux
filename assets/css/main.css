@@ -1835,6 +1835,8 @@ ul {
 	.owl-item p{
 		font-size: 17px;
 		font-family: 'raleway',sans-serif!important;
+		padding: 0px 100px;
+		text-align: justify;
 	}
 	.owl-item h2{
 		font-size: 18px;
@@ -1843,6 +1845,7 @@ ul {
 	.owl-nav span{
 		color:#fff;
 		font-size: 50px;
+		padding: 20px;
 	}
 	.owl-prev{
 		position: absolute;
@@ -1856,4 +1859,7 @@ ul {
 	}
 	button:focus{
 		outline: none;
+	}
+	#plus{
+		padding: 0px;
 	}
