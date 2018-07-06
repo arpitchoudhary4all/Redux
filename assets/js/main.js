@@ -133,9 +133,9 @@ headerToggle.on('click', function() {
   document.querySelector(".move1").addEventListener("click",function(){
 	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
   });
-  document.querySelector(".move2").addEventListener("click",function(){
-	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
-  });
+  // document.querySelector(".move2").addEventListener("click",function(){
+	// headerTl.reversed() ? headerTl.play() : headerTl.reverse();
+  // });
   document.querySelector(".move3").addEventListener("click",function(){
 	headerTl.reversed() ? headerTl.play() : headerTl.reverse();
   });

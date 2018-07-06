@@ -1697,6 +1697,7 @@ ul {
 #blog .card-text{
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif !important; 
+	text-align: justify;
 }
 #blog h3{
 	font-size: 30px;
@@ -1776,11 +1777,11 @@ ul {
 	}
 	.learning-wrapper button{
 		border: 1px solid white;
-		border-radius: 10px;
-		padding:0px 3px;
-		right: 5px;
-    	position: absolute;
-    	bottom: 8px;
+    border-radius: 10px;
+    padding: 0px 3px;
+    right: 38%;
+    position: absolute;
+    bottom: 8px;
 	}
 	.learning-wrapper button a{
 		color: white;
