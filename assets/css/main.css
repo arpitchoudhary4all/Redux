@@ -1394,7 +1394,8 @@ body{
 }
 #what_we_do p{
     font-size: 17px;
-    text-align: center;
+	text-align: justify;
+    padding: 10px;
 }
 #method{
 	margin-bottom: 30px;
@@ -1769,7 +1770,7 @@ ul {
 		text-align: center;
 	}
 	.learning-wrapper h2{
-		font-size: 25px;
+		font-size: 22px;
 		color: white;
 		vertical-align: middle;
 		margin-top: 25px;
@@ -1781,7 +1782,12 @@ ul {
     padding: 0px 3px;
     right: 38%;
     position: absolute;
-    bottom: 8px;
+	bottom: 40px;
+	}
+	@media(max-width:996px){
+		.learning-wrapper h2{
+			font-size:20px;
+		}
 	}
 	.learning-wrapper button a{
 		color: white;
@@ -1840,7 +1846,7 @@ ul {
 	}
 	.owl-item h2{
 		font-size: 18px;
-		font-family: serif !important;
+		font-family: 'raleway',sans-serif!important;
 	}
 	.owl-nav span{
 		color:#fff;
