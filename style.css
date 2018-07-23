@@ -213,4 +213,45 @@ section.color-bg .section-title .breadcrumbs a:before {
     box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.4);
 }
 
-
+@media(max-width:540px){
+	.images-collage-main{
+		width:142px;
+	}
+	.color-bg-text{
+		padding-top: 60px;
+	}
+	.color-bg-text h3{
+		padding-bottom: 0px;
+	}
+}
+@media(max-width:480px){
+	.pulkitimage{
+		left: 13% !important;
+	}
+	.paromaimage{
+		left: 72% !important;
+	}
+	.stuartimage{
+		left: 72% !important;
+	}
+	.sreejaimage{
+		left: 13% !important;
+	}
+	.images-collage-main{
+		margin-left: 32%;
+	}
+}
+@media(max-width:360px){
+	.paromaimage{
+		left: 75% !important;
+	}
+	.pulkitimage{
+		left: 6% !important;
+	}
+	.sreejaimage{
+		left: 8% !important;
+	}
+	.images-collage-main{
+		margin-left: 29%;
+	}
+}
