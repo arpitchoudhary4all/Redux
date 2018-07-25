@@ -254,7 +254,7 @@ h1{
 } */
 @media(max-width:767px){
   .timeline .first, .timeline  .second, .timeline  .third, .timeline  .fourth{
-		margin-top: 40px;
+		margin-top: 40x;
   }
   /* .timeline .timeline-content{
     margin-left: 20px;
@@ -281,10 +281,16 @@ h1{
     min-height: 240px;
     max-height: 240px;
   }
+  .timeline-content h2{
+    margin-bottom: 0px;
+  }
 }
 @media(max-width:580px){
   .timeline-content .align{
-    min-height: 180px;
+    min-height: 135px;
     max-height: 180px;
   }
+}
+#section_6 .subheading{
+  margin-top: 35px;
 }
