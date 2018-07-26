@@ -159,7 +159,11 @@ main {
 	position: relative;
 	overflow: hidden;
 }
-
+@media(max-width:767px){
+	.slideshow{
+		height:50vh;
+	}
+}
 .slides {
 	position: absolute;
 	width: 100%;
